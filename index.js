@@ -19,8 +19,6 @@ function addNewBook() {
     newBookEntry.appendChild(removeButton);
 
     booksContainer.appendChild(newBookEntry);
-
-    // Clear input fields
     document.getElementById('book-title').value = '';
     document.getElementById('book-author').value = '';
 }
