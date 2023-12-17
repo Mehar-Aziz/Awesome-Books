@@ -1,0 +1,50 @@
+.bookstore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bookstore h1 {
+    margin-bottom: 20px;
+}
+
+.add-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-book input {
+    width: 300px;
+    margin-bottom: 10px;
+   
+}
+
+.add-book button {
+    display: block;
+    border-radius: 8px;
+}
+
+.books-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 20px;
+    box-shadow: 2px;
+}
+
+.book-entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-entry p {
+    margin-left: 10px;
+}
+
+.book-entry button {
+   display: block;
+   border-radius: 8px;
+}
